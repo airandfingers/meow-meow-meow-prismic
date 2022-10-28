@@ -1,0 +1,9 @@
+{
+  "id": "meow",
+  "label": "MEow",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {}
+  }
+}

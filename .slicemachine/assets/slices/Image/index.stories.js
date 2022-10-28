@@ -1,0 +1,12 @@
+import MyComponent from '../../../../slices/Image';
+
+export default {
+  title: 'slices/Image'
+}
+
+
+export const _Default = () => <MyComponent slice={{"variation":"default","version":"sktwi1xtmkfgx8626","items":[{"text":"dinner"}],"primary":{"image":{"dimensions":{"width":900,"height":500},"alt":null,"copyright":null,"url":"https://images.prismic.io/nextjs-starter-prismic-blog/bbde7d62-670b-4592-b76c-4047d0cf1635_jake-melara-Yh6K2eTr_FY-unsplash.jpg"},"caption":[{"type":"paragraph","text":"Amet elit ex occaecat duis laboris elit enim esse pariatur in Lorem laborum aliquip. Duis laborum quis aute elit nostrud id amet in elit excepteur culpa amet magna. Exercitation qui dolore et.","spans":[]}]},"slice_type":"image","id":"_Default"}} />
+_Default.storyName = ''
+
+export const _Wide = () => <MyComponent slice={{"variation":"wide","version":"sktwi1xtmkfgx8626","items":[{}],"primary":{"image":{"dimensions":{"width":900,"height":500},"alt":null,"copyright":null,"url":"https://images.unsplash.com/photo-1493397212122-2b85dda8106b"},"caption":[{"type":"paragraph","text":"Exercitation velit in velit dolor irure commodo in ad mollit aute cupidatat qui. Reprehenderit id minim Lorem consequat sunt incididunt sint dolor qui exercitation. Nisi deserunt incididunt eiusmod aliquip eu aliqua tempor in pariatur eiusmod eiusmod irure.","spans":[]}]},"slice_type":"image","id":"_Wide"}} />
+_Wide.storyName = ''
